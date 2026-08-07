@@ -2,13 +2,11 @@ export const perfil = {
   nome: 'Gabriel Henrique Martins Airoldi',
   idade: 18,
   cargo: 'Desenvolvedor Júnior',
-  descricao:
-    'Desenvolvedor em início de carreira, resolvo problemas com código. Buscando minha primeira oportunidade como Desenvolvedor Júnior para aprender, colaborar em equipe e contribuir com projetos impactantes.',
-  fotoUrl: '',
+  descricao: '...',
+  fotoUrl: '/foto.png',
   linkedin: 'https://www.linkedin.com/in/gabriel-henrique-martins-airoldi-764130370/?skipRedirect=true',
   github: 'https://github.com/GABRIEL-AIROLDI'
 }
-
 export const competencias = [
   {
     titulo: 'Comunicação',
@@ -35,4 +33,27 @@ export const formacaoAcademica = [
     instituicao: 'Senac Distrito Criativo',
     descricao: 'Cursando o técnico em informática, adquirindo conhecimentos em programação, redes e desenvolvimento de software.',
   },
+]
+
+
+export const certificados = [
+  {
+    titulo: 'BI com Excel: criando um Dashboard sem complicação',
+  },
+  {
+    titulo: 'ChatGPT com Excel: automação com macros', 
+    instituicao: 'Alura', 
+  },
+  {
+    titulo: 'ChatGPT: desvendando a IA em conversas e suas aplicações', 
+    instituicao: 'Alura', 
+  },
+  {
+    titulo: 'ChatGPT: otimizando a qualidade dos resultados', 
+    instituicao: 'Alura', 
+  },
+  {
+    titulo: 'Comunicação assertiva: reduzindo conflitos e frustrações',
+    instituicao: 'Alura', 
+  }
 ]
